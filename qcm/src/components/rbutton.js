@@ -2,10 +2,11 @@ import React from 'react';
 import { StyleSheet } from 'react-native';
 import { Button } from 'react-native-elements';
 
-const ResponseButton = () => {
+const ResponseButton = (props) => {
   return (
       <Button
         buttonStyle={styles.button}
+        title={props.buttonTitle}
       />
   );
 };
@@ -13,7 +14,7 @@ const ResponseButton = () => {
 const styles = StyleSheet.create({
   button: {
     marginTop: 15,
-    backgroundColor: '#cbd2d9'
+    backgroundColor: '#3e4444',
   }
 });
 

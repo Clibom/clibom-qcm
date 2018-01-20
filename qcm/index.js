@@ -1,9 +1,9 @@
 import React from 'react';
 import { AppRegistry } from 'react-native';
-import Header from './src/components/header';
+import { Button } from 'react-native-elements';
 
 const App = () => (
-    <Header />
+  <Button />
 );
 
 AppRegistry.registerComponent('qcm', () => App);

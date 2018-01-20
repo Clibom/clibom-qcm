@@ -5,24 +5,21 @@ import { Button } from 'react-native-elements';
 const ResponseButton = (props) => {
   return (
       <Button
-        buttonStyle={styles.button}
         title={props.buttonTitle}
+        buttonStyle={styles.button}
+        textStyle={styles.text}
       />
   );
 };
 
 const styles = StyleSheet.create({
   button: {
-    marginTop: 15,
-    backgroundColor: '#97b498',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: 60,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    elevation: 2,
-    position: 'relative'
+    backgroundColor: '#64b5f6',
+    marginTop: 10,
+  },
+  text: {
+    color: '#212121',
+    flex: 1
   }
 });
 

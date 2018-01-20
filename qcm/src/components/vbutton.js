@@ -6,25 +6,21 @@ const ValidationButton = (props) => {
   return (
       <Button
         large
+        buttonStyle={styles.button}
         title={props.buttonTitle}
-        color='#388e3c'
+        textStyle={styles.text}
       />
   );
 };
 
-// const styles = StyleSheet.create({
-//   button: {
-//     marginTop: 15,
-//     backgroundColor: '#388e3c',
-//     justifyContent: 'center',
-//     alignItems: 'center',
-//     height: 60,
-//     shadowColor: '#000',
-//     shadowOffset: { width: 0, height: 2 },
-//     shadowOpacity: 0.2,
-//     elevation: 2,
-//     position: 'relative'
-//   }
-// });
+const styles = StyleSheet.create({
+  button: {
+    backgroundColor: '#9be7ff',
+    flex: 2
+  },
+  text: {
+    color: '#212121'
+  }
+});
 
 export default ValidationButton;

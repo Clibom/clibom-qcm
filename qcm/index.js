@@ -1,9 +1,9 @@
 import React from 'react';
 import { AppRegistry } from 'react-native';
-import { Button } from 'react-native-elements';
+import ResponseButton from './src/components/rbutton';
 
 const App = () => (
-  <Button />
+  <ResponseButton />
 );
 
 AppRegistry.registerComponent('qcm', () => App);

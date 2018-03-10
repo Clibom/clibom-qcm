@@ -4,6 +4,13 @@
 - Lancer react-native run-android pour executer sur le device en usb
 - Plugin EsLint detection d'erreur : installer eslint dans le projet (avoir les plugins dans l'ide atom) via la commande : npm install -saave-dev eslint-config-rallycoding
 
+Initialisation d'un nouveau projet React native
+
+ - npm install --save-dev eslint-config-rallycoding
+ - npm install --save react-native-elements@1.0.0-beta2
+ - npm install --save react-native-vector-icons
+ - react-native link react-native-vector-icons
+
 
 Problème de "unable to load script from assets index.android.bundle"*
 Effectuer les commandes de ce lien : https://stackoverflow.com/questions/44446523/unable-to-load-script-from-assets-index-android-bundle-on-windows

@@ -2,11 +2,11 @@ import React from 'react';
 import { StyleSheet } from 'react-native';
 import { Button } from 'react-native-elements';
 
-const ValidationButton = (props) => (
+const ValidationButton = () => (
       <Button
         large
+        title='Validate'
         buttonStyle={styles.button}
-        title={props.buttonTitle}
         textStyle={styles.text}
       />
   );
@@ -14,7 +14,7 @@ const ValidationButton = (props) => (
 const styles = StyleSheet.create({
   button: {
     backgroundColor: '#9be7ff',
-    flex: 2
+    margin: 30,
   },
   text: {
     color: '#212121'

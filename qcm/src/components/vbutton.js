@@ -2,8 +2,7 @@ import React from 'react';
 import { StyleSheet } from 'react-native';
 import { Button } from 'react-native-elements';
 
-const ValidationButton = (props) => {
-  return (
+const ValidationButton = (props) => (
       <Button
         large
         buttonStyle={styles.button}
@@ -11,7 +10,6 @@ const ValidationButton = (props) => {
         textStyle={styles.text}
       />
   );
-};
 
 const styles = StyleSheet.create({
   button: {

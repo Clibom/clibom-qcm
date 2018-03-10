@@ -1,13 +1,10 @@
 import React from 'react';
 import { View } from 'react-native';
 
-const Card = () => {
-  return (
-      <View style={styles.containerStyle}>
-      </View>
+const Card = () => (
+      <View style={styles.containerStyle} />
   );
-};
-
+  
 const styles = {
   containerStyle: {
       borderWidth: 1,

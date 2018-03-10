@@ -1,12 +1,10 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
-import { Icon, Text } from 'react-native-elements';
+import { StyleSheet } from 'react-native';
+import { Text } from 'react-native-elements';
 
-const Question = (props) => {
-  return (
+const Question = (props) => (
       <Text style={styles.heading}>{props.questionTitle}</Text>
   );
-};
 
 const styles = StyleSheet.create({
   heading: {

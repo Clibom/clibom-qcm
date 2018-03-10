@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
   heading: {
     color: '#212121',
     backgroundColor: '#2286c3',
-    marginTop: 10,
+    marginTop: 30,
     marginRight: 5,
     marginLeft: 5,
     fontSize: 22,
